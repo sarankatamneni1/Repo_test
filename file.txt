@@ -1,1 +1,2 @@
 Testing Jenkins Trigger
+Git repo clone to Local machine(Windows10), Modified the file,Push changes to Git repo.
