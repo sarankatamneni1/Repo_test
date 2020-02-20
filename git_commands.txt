@@ -1,0 +1,56 @@
+
+# Repository clone from Gir Hub
+git@github.com:sarankatamneni1/Repo_test.git
+
+# git add command
+
+git add .
+
+# git commit cmd
+
+git commit -m "message" .
+
+#git pull , Latest updated from git repo
+git pull git@github.com:sarankatamneni1/Repo_test.git
+
+#git push
+git push origin master
+
+
+============
+git status
+Newly created file add to git local repo by uisng git add filenmae
+
+
+Example:
+
+Saran Kumar@DESKTOP-OESLVML MINGW64 /d/Repo_test (master)
+$ vi git_commands.txt
+
+Saran Kumar@DESKTOP-OESLVML MINGW64 /d/Repo_test (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git_commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Saran Kumar@DESKTOP-OESLVML MINGW64 /d/Repo_test (master)
+$ git add git_commands.txt
+
+Saran Kumar@DESKTOP-OESLVML MINGW64 /d/Repo_test (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   git_commands.txt
+
+
+
+
+
